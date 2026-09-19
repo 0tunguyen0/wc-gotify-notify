@@ -5,134 +5,134 @@
 
 /* Admin Layout (2 columns with responsive stacking) */
 .wc-gotify-admin-layout {
-    display: flex;
-    gap: 20px;
-    align-items: flex-start;
-    margin-top: 15px;
+	display: flex;
+	gap: 20px;
+	align-items: flex-start;
+	margin-top: 15px;
 }
 
 .wc-gotify-admin-layout .wc-gotify-main-column {
-    flex: 1 1 0%;
-    min-width: 0;
+	flex: 1 1 0%;
+	min-width: 0;
 }
 
 .wc-gotify-admin-layout .wc-gotify-sidebar-column {
-    flex: 0 0 280px;
-    width: 280px;
-    max-width: 100%;
+	flex: 0 0 280px;
+	width: 280px;
+	max-width: 100%;
 }
 
 @media screen and (max-width: 782px) {
-    .wc-gotify-admin-layout {
-        flex-direction: column;
-    }
+	.wc-gotify-admin-layout {
+		flex-direction: column;
+	}
 
-    .wc-gotify-admin-layout .wc-gotify-sidebar-column {
-        width: 100% !important;
-        flex: 1 1 100% !important;
-    }
+	.wc-gotify-admin-layout .wc-gotify-sidebar-column {
+		width: 100%;
+		flex: 1 1 100%;
+	}
 }
 
 /* Postbox Styling & Consistency */
 .wc-gotify-main-column .postbox {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 .wc-gotify-main-column .postbox-header .hndle,
 .wc-gotify-sidebar-column .postbox-header .hndle {
-    font-size: 14px;
-    margin-left: 15px;
+	font-size: 14px;
+	margin-left: 15px;
 }
 
 .wc-gotify-main-column .postbox .inside {
-    padding: 12px 16px 16px;
-    margin: 0;
+	padding: 12px 16px 16px;
+	margin: 0;
 }
 
 /* Form Settings Specifics */
 .wc-gotify-main-column .form-table th {
-    width: 220px;
-    padding: 16px 10px 16px 0;
+	width: 220px;
+	padding: 16px 10px 16px 0;
 }
 
 .wc-gotify-main-column .form-table td {
-    padding: 12px 10px;
+	padding: 12px 10px;
 }
 
 .wc-gotify-main-column .form-table p.description,
 .wc-gotify-main-column .form-table span.description {
-    margin-top: 6px;
-    color: #646970;
+	margin-top: 6px;
+	color: #646970;
 }
 
 /* Sidebar Slider & Support Elements */
 @keyframes wcGotifyFadeIn {
-    from { opacity: 0.35; }
-    to { opacity: 1; }
+	from { opacity: 0.35; }
+	to { opacity: 1; }
 }
 
 .wc-gotify-sb-slide {
-    animation: wcGotifyFadeIn 0.35s ease-in-out;
+	animation: wcGotifyFadeIn 0.35s ease-in-out;
 }
 
 .wc-gotify-sb-slider {
-    text-align: center;
-    overflow: hidden;
-    position: relative;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
 }
 
 .wc-gotify-sb-slider .inside {
-    padding: 12px;
-    margin: 0;
+	padding: 12px;
+	margin: 0;
 }
 
 .wc-gotify-sb-slider a {
-    display: block;
-    text-decoration: none;
+	display: block;
+	text-decoration: none;
 }
 
 .wc-gotify-sb-slider img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 4px;
-    display: block;
-    margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+	border-radius: 4px;
+	display: block;
+	margin: 0 auto;
 }
 
 .wc-gotify-sb-slider .wc-gotify-sb-desc {
-    font-size: 13px;
-    color: #555;
-    margin: 8px 0 0;
-    line-height: 1.4;
+	font-size: 13px;
+	color: #555;
+	margin: 8px 0 0;
+	line-height: 1.4;
 }
 
 .wc-gotify-sb-slider-dots {
-    padding: 6px 0 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 6px;
+	padding: 6px 0 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 6px;
 }
 
 .wc-gotify-sb-dot {
-    width: 9px;
-    height: 9px;
-    border-radius: 50%;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    background: #c3c4c7;
-    transform: scale(1);
-    transition: background 0.25s, transform 0.25s;
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	background: #c3c4c7;
+	transform: scale(1);
+	transition: background 0.25s, transform 0.25s;
 }
 
 .wc-gotify-sb-dot.is-active {
-    background: #2271b1;
-    transform: scale(1.25);
+	background: #2271b1;
+	transform: scale(1.25);
 }
 
 .wc-gotify-support-card .button {
-    width: 100%;
-    text-align: center;
-    box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	box-sizing: border-box;
 }
