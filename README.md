@@ -9,6 +9,8 @@
 
 Keep track of sales in real time without relying on third-party SaaS notification services or bloated email channels. Designed for speed, reliability, and security.
 
+![Plugin Screenshot](https://github.com/0tunguyen0/wc-gotify-notify/blob/main/screenshot.png)
+
 ## Key Features
 
 * 🚀 **Instant Push Notifications:** Receive instant mobile and desktop alerts via Gotify the moment a customer completes checkout.
