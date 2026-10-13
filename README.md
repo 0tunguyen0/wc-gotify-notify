@@ -3,7 +3,7 @@
 [![WordPress](https://img.shields.io/badge/WordPress-5.6%2B-blue.svg)](https://wordpress.org)
 [![WooCommerce](https://img.shields.io/badge/WooCommerce-5.0%2B-purple.svg)](https://woocommerce.com)
 [![HPOS Compatible](https://img.shields.io/badge/WooCommerce-HPOS%20Compatible-brightgreen.svg)](https://woocommerce.com)
-[![License](https://img.shields.io/badge/License-GPL--2.0--or--later-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-GPL--2.0--or--later-blue.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
 
 **WooCommerce to Gotify Notifications** is a lightweight, high-performance WordPress plugin that sends instant self-hosted push notifications to your Gotify server whenever a new WooCommerce order is placed.
 
