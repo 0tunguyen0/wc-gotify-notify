@@ -1,32 +1,25 @@
 # WooCommerce to Gotify Notifications
 
-Sends push notifications to your self-hosted [Gotify](https://gotify.net/) server whenever a new WooCommerce order is placed.
+[![WordPress](https://img.shields.io/badge/WordPress-5.6%2B-blue.svg)](https://wordpress.org)
+[![WooCommerce](https://img.shields.io/badge/WooCommerce-5.0%2B-purple.svg)](https://woocommerce.com)
+[![HPOS Compatible](https://img.shields.io/badge/WooCommerce-HPOS%20Compatible-brightgreen.svg)](https://woocommerce.com)
+[![License](https://img.shields.io/badge/License-GPL--2.0--or--later-blue.svg)](LICENSE)
 
-## Features
+**WooCommerce to Gotify Notifications** is a lightweight, high-performance WordPress plugin that sends instant self-hosted push notifications to your Gotify server whenever a new WooCommerce order is placed.
 
-- 🚀 **Instant Push Notifications**: Get notified on mobile and desktop via Gotify as soon as an order is placed.
-- ⚡ **Asynchronous & Non-Blocking**: Utilizes WooCommerce's built-in Action Scheduler for background processing so checkout performance is never affected.
-- 🛒 **Block & Classic Checkout Support**: Works with classic shortcode checkouts and modern block-based (Cart & Checkout blocks) checkouts.
-- 📦 **WooCommerce HPOS Compatible**: Full support for High-Performance Order Storage (HPOS) and traditional post meta storage.
-- 🔤 **Dynamic Placeholders**: Customize your notification title and body using rich order placeholders:
-  - `{order_id}`
-  - `{customer_name}`
-  - `{customer_email}`
-  - `{customer_phone}`
-  - `{total}`
-  - `{currency}`
-  - `{items_count}`
-  - `{payment_method}`
-  - `{order_status}`
-  - `{billing_city}`
-  - `{billing_country}`
-  - `{admin_url}`
-  - `{site_name}`
-  - `{site_url}`
-  - `{date}`
-- 🔒 **Security & Basic Auth**: Supports servers behind HTTP Basic Authentication.
-- 🧪 **Built-in Test Tool**: Send test notifications directly from the settings page to verify your Gotify server connection.
-- 🧹 **Clean Uninstall**: Properly cleans up plugin options, scheduled tasks, and metadata upon deletion.
+Keep track of sales in real time without relying on third-party SaaS notification services or bloated email channels. Designed for speed, reliability, and security.
+
+## Key Features
+
+* 🚀 **Instant Push Notifications:** Receive instant mobile and desktop alerts via Gotify the moment a customer completes checkout.
+* ⚡ **Asynchronous & Non-Blocking:** Powered by WooCommerce’s native Action Scheduler to process notifications in the background—ensuring zero impact on checkout speed or site performance.
+* 🛒 **Block & Classic Checkout Support:** Native compatibility with both modern WooCommerce Cart & Checkout Blocks and classic shortcodes.
+* 📦 **WooCommerce HPOS Compatible:** Fully compliant with High-Performance Order Storage (HPOS) and traditional post meta storage.
+* 🔤 **Dynamic Placeholders:** Build tailored alerts with detailed order dynamic tags:
+  `{order_id}`, `{customer_name}`, `{customer_email}`, `{customer_phone}`, `{total}`, `{currency}`, `{items_count}`, `{payment_method}`, `{order_status}`, `{billing_city}`, `{billing_country}`, `{admin_url}`, `{site_name}`, `{site_url}`, `{date}`
+* 🔒 **Security & Basic Auth:** Native support for Gotify instances protected behind HTTP Basic Authentication.
+* 🧪 **Built-in Connection Tester:** Send test alerts directly from the settings panel to verify your server configuration.
+* 🧹 **Clean Uninstall:** Leaves no database clutter—automatically purges plugin options, scheduled tasks, and metadata upon removal.
 
 ## Requirements
 
